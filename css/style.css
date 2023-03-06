@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar */
+.navbar {
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 9999;
+ 
+}
+.left {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.left li{ 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.left li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: flex-end;
+    
+}
+.right li{
+    display: flex;
+    padding: 1rem;
+   
+}
+.right li {list-style: none;}
+
+.left img{width: 69;}
+
+body{
+    background-color: black;
+    background-size: 100vh;
+}
+
+/*hover*/
+.hover:hover {color: rgb(54, 54, 201);}
+/*navbar bitiş*/
+
+/*ilk görsel*/
+.first-brain{background-color: black;
+    background-size: 100vh;
+    overflow: hidden;
+
+}
+
+.ilkbeyin{  
+    margin-left: 10%;
+    width: 90%;
+    margin-top: -412px;
+    position: absolute;
+}
+.ilkbeyinyazi{
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    position: relative;
+    z-index: 222;
+    margin-top: 311px;
+    margin-left: 262px;
+}
+/*ilk görsel bittiş*/
+
+/*ikinci görsel*/
+.focused{
+    background-color: white;
+    background-size: 100vh;
+    margin-top: 29%;
+    overflow: hidden;
+}
+
+.baslik{
+    margin-top: 10%;
+}
+
+hr{   
+    width: 22%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.yazi{margin-left: 5%;
+    font-size: x-large;
+}
+
+.ikincibeyin{  
+    margin-left: 43%;
+    margin-top: -24%;
+    width: 50%;
+}
+
+.focus{    
+    margin-top: 15px;
+    width: 21%;
+}
+
+/*ikinci görsel son*/
+
+/*üçüncü görsel*/
+
+.creating {
+    background-color: black;
+    background-size: 100vh;
+    overflow: hidden;
+}
+
+.beyin3{ 
+    width: 41%;
+    margin-top: -22%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+}
+
+.baslik1{
+    color: white;
+    margin-left: 63%;
+    margin-top: 16%;
+    }
+.çizgi1{
+    width: 20%;
+    margin-left: 61%;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.aciklama1{
+    color: white;
+    width: 20%;
+    margin-left: 61%;
+    text-align: left;
+    display: block;
+    font-size: x-large;
+
+}
+
+/*üçüncü görsel bitiş*/
+
+/*dördüncü  ve altıncı görsel*/
+.resim img{
+    width: 100%;
+}
+/*dördüncü ve altıncı görsel bitiş*/
+
+/*beşinci görsel*/
+
+.improve{
+    background-color: white;
+    background-size: 100vh;
+    margin-top: -4px;
+    overflow: hidden;
+}
+
+
+.baslik2{
+    margin-left: 66%;
+    margin-top: 15%;
+}
+
+.çizgi2{
+    margin-left: 62%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.aciklama2{
+    margin-left: 62%;
+    width: 22%;
+}
+
+.beyin4{
+    width: 50%;
+    margin-left: 6%;
+    margin-top: -13%;
+}
+
+/*beşinci görsel bitiş*/
+
+/*footer*/
+
+.footer{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding:15px;
+    background-color: black;
+    padding: 2%;
+    align-items: center;
+    
+}
